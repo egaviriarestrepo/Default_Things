@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/soft_gradient"
+    tools:context="com.example.egaviria.defaultactivities.StartActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/sizeAndDpiButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/check_size_and_dpi"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/defaultActivitiesButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/default_activities"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/widgetsButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/widgets"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="..."
+            tools:ignore="ButtonStyle" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/listViewButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/list_view"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/gridViewButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/grid_view"
+            tools:ignore="ButtonStyle" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/recyclerViewButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/recyclerview"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/cardViewButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="CardView"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/recyclerCardViewButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Recycler-CardView"
+            tools:ignore="ButtonStyle" />
+    </TableRow>
+
+</TableLayout>

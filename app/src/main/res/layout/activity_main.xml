@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/basicActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:text="basicActivity" />
+
+    <Button
+        android:id="@+id/buttonNavActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:text="buttonNavActivity" />
+
+    <Button
+        android:id="@+id/FullscreenActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:text="FullscreenActivity" />
+
+    <Button
+        android:id="@+id/LoginActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:text="LoginActivity" />
+
+    <Button
+        android:id="@+id/ItemDetailActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:text="ItemDetailActivity" />
+
+    <Button
+        android:id="@+id/navDrawerActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:text="navDrawerActivity" />
+
+    <Button
+        android:id="@+id/ScrollingActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:text="ScrollingActivity" />
+
+    <Button
+        android:id="@+id/SettingsActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:text="SettingsActivity" />
+
+    <Button
+        android:id="@+id/tabActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:text="tabActivity" />
+
+</LinearLayout>

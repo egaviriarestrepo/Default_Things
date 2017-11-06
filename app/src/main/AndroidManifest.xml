@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.egaviria.defaultactivities">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.DefaultActivities"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".StartActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".default_activities.basicActivity"
+            android:label="@string/title_activity_basic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".default_activities.buttonNavActivity"
+            android:label="@string/title_activity_button_nav" />
+        <activity
+            android:name=".default_activities.FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".default_activities.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".default_activities.ItemListActivity"
+            android:label="@string/title_item_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".default_activities.ItemDetailActivity"
+            android:label="@string/title_item_detail"
+            android:parentActivityName=".default_activities.ItemListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.egaviria.defaultactivities.default_activities.ItemListActivity" />
+        </activity>
+        <activity
+            android:name=".default_activities.navDrawerActivity"
+            android:label="@string/title_activity_nav_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".default_activities.ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".default_activities.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".default_activities.tabActivity"
+            android:label="@string/title_activity_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.WidgetsActivity" />
+        <activity android:name=".activities.ListViewActivity" />
+        <activity android:name=".activities.GridViewActivity" />
+        <activity android:name=".recycler_view.RecyclerViewActivity" />
+        <activity android:name=".activities.CardViewActivity" />
+        <activity android:name=".recycler_view.RecyclerCardViewActivity" />
+        <activity android:name=".activities.testJazzyActivity"></activity>
+    </application>
+
+</manifest>
