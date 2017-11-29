@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.egaviria.defaultactivities.activities.dpiPxActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TEXTO DE PRUEBA" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="100px"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_dark"
+                android:text="100px"
+                android:tooltipText="100px" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="200px"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_dark"
+                android:text="200px"
+                android:tooltipText="100px" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="300px"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_dark"
+                android:text="300px"
+                android:tooltipText="100px" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="400px"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_dark"
+                android:text="400px"
+                android:tooltipText="100px" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_dark"
+                android:text="100dp"
+                android:tooltipText="100dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_dark"
+                android:text="200dp"
+                android:tooltipText="100dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_dark"
+                android:text="300dp"
+                android:tooltipText="100dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="400dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_dark"
+                android:text="400dp"
+                android:tooltipText="100dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

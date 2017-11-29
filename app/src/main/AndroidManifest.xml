@@ -76,7 +76,26 @@
         <activity android:name=".recycler_view.RecyclerViewActivity" />
         <activity android:name=".activities.CardViewActivity" />
         <activity android:name=".recycler_view.RecyclerCardViewActivity" />
-        <activity android:name=".activities.testJazzyActivity"></activity>
+        <activity android:name=".activities.testJazzyActivity" />
+        <activity android:name=".JazzyViewPager.JazzyViewPagerActivity" />
+        <activity android:name=".libraries_activity.view_page_transformer_package.ViewPageTransformerActivity" />
+        <activity android:name=".libraries_activity.LibreariesActivity" />
+        <activity
+            android:name=".view_pager_slides.SlideViewPagerActivity"
+            android:label="@string/title_activity_slide_view_pager"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.FragmentActivity" />
+        <activity android:name=".activities.dpiPxActivity" />
+        <activity android:name=".activities.stack.Stack1Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.egaviria.defaultactivities.StartActivity" />
+        </activity>
+        <activity
+            android:name=".activities.stack.Stack2Activity"
+            android:label="@string/title_activity_stack2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.ImagesActivity"></activity>
     </application>
 
 </manifest>

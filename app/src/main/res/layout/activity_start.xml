@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,22 +14,20 @@
         <Button
             android:id="@+id/sizeAndDpiButton"
             android:layout_width="0dp"
+            android:layout_margin="1dp"
+            android:background="@android:color/white"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="@string/check_size_and_dpi"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            android:text="@string/check_size_and_dpi"/>
 
         <Button
             android:id="@+id/defaultActivitiesButton"
             android:layout_width="0dp"
+            android:layout_margin="1dp"
+            android:background="@android:color/white"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/default_activities"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:text="@string/default_activities"/>
     </TableRow>
 
     <TableRow
@@ -42,16 +39,20 @@
             android:id="@+id/widgetsButton"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:layout_margin="1dp"
+            android:background="@android:color/white"
             android:layout_height="wrap_content"
             android:text="@string/widgets"
             tools:ignore="ButtonStyle" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/fragmentsButton"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:layout_margin="1dp"
+            android:background="@android:color/white"
             android:layout_height="wrap_content"
-            android:text="..."
+            android:text="@string/fragments"
             tools:ignore="ButtonStyle" />
     </TableRow>
 
@@ -64,6 +65,8 @@
             android:id="@+id/listViewButton"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:layout_margin="1dp"
+            android:background="@android:color/white"
             android:layout_height="wrap_content"
             android:text="@string/list_view"
             tools:ignore="ButtonStyle" />
@@ -72,6 +75,8 @@
             android:id="@+id/gridViewButton"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:layout_margin="1dp"
+            android:background="@android:color/white"
             android:layout_height="wrap_content"
             android:text="@string/grid_view"
             tools:ignore="ButtonStyle" />
@@ -86,6 +91,8 @@
             android:id="@+id/recyclerViewButton"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:layout_margin="1dp"
+            android:background="@android:color/white"
             android:layout_height="wrap_content"
             android:text="@string/recyclerview"
             tools:ignore="ButtonStyle" />
@@ -94,15 +101,100 @@
             android:id="@+id/cardViewButton"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:layout_margin="1dp"
+            android:background="@android:color/white"
             android:layout_height="wrap_content"
-            android:text="CardView"
+            android:text="@string/cardview"
             tools:ignore="ButtonStyle" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
         <Button
             android:id="@+id/recyclerCardViewButton"
             android:layout_weight="1"
             android:layout_width="0dp"
+            android:layout_margin="1dp"
+            android:background="@android:color/white"
             android:layout_height="wrap_content"
-            android:text="Recycler-CardView"
+            android:text="@string/recycler_cardview"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/slidesViewPagerButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="1dp"
+            android:background="@android:color/white"
+            android:layout_height="wrap_content"
+            android:text="@string/slides_viewpager"
+            tools:ignore="ButtonStyle" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+        <Button
+            android:id="@+id/dpiPxButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="1dp"
+            android:background="@android:color/white"
+            android:layout_height="wrap_content"
+            android:text="Dpi-Px"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/imgButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="1dp"
+            android:background="@android:color/white"
+            android:layout_height="wrap_content"
+            android:text="Images"
+            tools:ignore="ButtonStyle" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/librariesViewButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="1dp"
+            android:background="@android:color/white"
+            android:layout_height="wrap_content"
+            android:text="@string/libraries"
+            tools:ignore="ButtonStyle" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/stackButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="1dp"
+            android:background="@android:color/white"
+            android:layout_height="wrap_content"
+            android:text="StackActivities"
             tools:ignore="ButtonStyle" />
     </TableRow>
 

@@ -204,4 +204,22 @@
     <string name="grid_view">Grid View</string>
     <string name="imgmovie">imgMovie</string>
     <string name="lorem_text">Lorem Text</string>
+    <string name="jazzyviewpager">JazzyViewPager</string>
+    <string name="recycler_cardview">Recycler-CardView</string>
+    <string name="cardview">CardView</string>
+    <string name="libraries">Libraries</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="primer_fragmento">Primer fragmento</string>
+    <string name="title_activity_slide_view_pager">SlideViewPagerActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="slides_viewpager">Slides-ViewPager</string>
+    <string name="fragments">Fragments</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="send_to_fragment_2">Send to Fragment 2</string>
+    <string name="send_to_deatailsfragment">Send to DeatailsFragment</string>
+    <string name="title_activity_stack2">Stack2Activity</string>
 </resources>
