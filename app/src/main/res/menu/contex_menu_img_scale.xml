@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/scaleCenter"
+        android:title="CENTER" />
+    <item
+        android:id="@+id/scaleCenterCrop"
+        android:title="CENTER_CROP" />
+    <item
+        android:id="@+id/scaleCenterInside"
+        android:title="CENTER_INSIDE" />
+    <item
+        android:id="@+id/scaleFitCenter"
+        android:title="FIT_CENTER" />
+    <item
+        android:id="@+id/scaleFitEnd"
+        android:title="FIT_END" />
+    <item
+        android:id="@+id/scaleFitStart"
+        android:title="FIT_START" />
+    <item
+        android:id="@+id/scaleFitXY"
+        android:title="FIT_XY" />
+    <item
+        android:id="@+id/scaleMatrix"
+        android:title="MATRIX" />
+</menu>

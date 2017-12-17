@@ -95,7 +95,10 @@
             android:name=".activities.stack.Stack2Activity"
             android:label="@string/title_activity_stack2"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".activities.ImagesActivity"></activity>
+        <activity android:name=".activities.ImagesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
     </application>
 
 </manifest>

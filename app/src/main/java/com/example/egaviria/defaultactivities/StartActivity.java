@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.example.egaviria.defaultactivities.activities.FragmentActivity;
+import com.example.egaviria.defaultactivities.activities.ImagesActivity;
 import com.example.egaviria.defaultactivities.activities.dpiPxActivity;
 import com.example.egaviria.defaultactivities.activities.stack.Stack1Activity;
 import com.example.egaviria.defaultactivities.libraries_activity.LibreariesActivity;
@@ -142,7 +143,7 @@ public class StartActivity extends Activity {
         findViewById(R.id.imgButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(self, Stack1Activity.class);
+                Intent intent = new Intent(self, ImagesActivity.class);
                 startActivity(intent);
             }
         });
